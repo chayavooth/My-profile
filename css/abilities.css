@@ -1,20 +1,53 @@
 /* CSS files --> abilities.html */
 body{
-    background-color: #A5DEE5;
+    background-color: white;
 }
 .table-menu{
-    width:100%; 
+    display: block;
     text-align: center;
-    background-color: #FEFDCA;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-width:535px;
+    background-color: rgb(73, 134, 100);
+    position:relative;
 } 
+ul {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-width:535px;
+    
+    position:relative;
+}
+li {
+    margin: 0 auto;
+    display: inline-block;
+    list-style: none;
+    padding:0;
+  }
+  
+  a {
+    display: block;
+    padding: 25px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    text-shadow:1px 0px rgba(black,.4);
+    color: #000000;
+    letter-spacing:.2em;
+    text-decoration: none;
+  }  
 h1{
     text-align: center; 
     font-family: cursive;
-    background-color: #E0F9B5;
+    background-color: rgb(17, 155, 24);
 } 
 h4{
-    text-align: center; 
-    font-family: Aclonica; 
+    text-align: center;
+    font-family: Aclonica;
     font-weight: normal;
 }
 h5{ 
@@ -24,10 +57,10 @@ h5{
 }
 h2{ 
     text-align: center;
-    background-color: #FFCFDF;
-} 
+    background-color: rgb(17, 155, 24);
+}
 .table-skills{
     margin-left: auto; 
     margin-right: auto; 
-    background-color: #FEFDCA;
+    background-color: #E0F9B5;
 }
